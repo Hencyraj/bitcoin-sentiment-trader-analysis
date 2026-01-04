@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.upload-section {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 40px;
+}
+
+.upload-box {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.upload-box input {
+  margin-top: 15px;
+}
+
+.center {
+  text-align: center;
+}
+
+button {
+  background: #2a5298;
+  color: white;
+  border: none;
+  padding: 14px 30px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1e3c72;
+}
+
+.hidden {
+  display: none;
+}
+
+#results {
+  margin: 40px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  width: 220px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.fear {
+  border-top: 5px solid #e74c3c;
+}
+
+.greed {
+  border-top: 5px solid #2ecc71;
+}
+
+.insights {
+  margin-top: 30px;
+}
+
+.insights ul {
+  list-style: none;
+  padding: 0;
+}
+
+.insights li {
+  background: white;
+  margin: 10px auto;
+  padding: 12px;
+  width: 60%;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+footer {
+  margin-top: 50px;
+  padding: 15px;
+  text-align: center;
+  background: #ddd;
+}

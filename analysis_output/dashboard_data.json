@@ -1,0 +1,175 @@
+{
+  "metadata": {
+    "total_trades": 35864,
+    "sentiment_dates": 2644,
+    "analysis_date": "2026-01-04",
+    "data_sources": [
+      "bitcoin_sentiment.csv",
+      "trader_data.csv"
+    ],
+    "clean_trader_trades": 79225,
+    "unique_sentiment_dates": 2644,
+    "merged_trades": 35864
+  },
+  "sentiment_labels": [
+    "Greed",
+    "Extreme Greed",
+    "Fear",
+    "Extreme Fear",
+    "Neutral"
+  ],
+  "sentiment_counts": [
+    13869,
+    11292,
+    5621,
+    2756,
+    2326
+  ],
+  "sentiment_stats": {
+    "Greed": {
+      "trade_count": 11292,
+      "avg_pnl": 53.98800324442084,
+      "median_pnl": 0.0,
+      "win_rate": 43.57066950053135,
+      "total_pnl": 609632.5326360001,
+      "avg_trade_size": 5051.878829259654,
+      "avg_start_position": 37276.787810983165
+    },
+    "Extreme Greed": {
+      "trade_count": 5621,
+      "avg_pnl": 205.81634505888633,
+      "median_pnl": 0.96048,
+      "win_rate": 55.328233410425185,
+      "total_pnl": 1156893.675576,
+      "avg_trade_size": 3242.085086283579,
+      "avg_start_position": 24593.24115989713
+    },
+    "Fear": {
+      "trade_count": 13869,
+      "avg_pnl": 128.28795029591174,
+      "median_pnl": 0.0,
+      "win_rate": 38.1786718581008,
+      "total_pnl": 1779225.582654,
+      "avg_trade_size": 5744.782685125099,
+      "avg_start_position": 8146.358517624415
+    },
+    "Extreme Fear": {
+      "trade_count": 2326,
+      "avg_pnl": 1.8916322231298361,
+      "median_pnl": 0.0,
+      "win_rate": 29.27773000859845,
+      "total_pnl": 4399.936550999999,
+      "avg_trade_size": 4118.761840068788,
+      "avg_start_position": 21902.79750481654
+    },
+    "Neutral": {
+      "trade_count": 2756,
+      "avg_pnl": 27.088803330914367,
+      "median_pnl": 0.0,
+      "win_rate": 49.49201741654572,
+      "total_pnl": 74656.74197999999,
+      "avg_trade_size": 4332.202906386066,
+      "avg_start_position": 89199.58740613675
+    }
+  },
+  "chart_data": {
+    "win_rates": {
+      "Extreme Fear": 29.27773000859845,
+      "Extreme Greed": 55.328233410425185,
+      "Fear": 38.1786718581008,
+      "Greed": 43.57066950053135,
+      "Neutral": 49.49201741654572
+    },
+    "trade_sizes": {
+      "Extreme Fear": 4118.761840068787,
+      "Extreme Greed": 3242.085086283579,
+      "Fear": 5744.782685125099,
+      "Greed": 5051.878829259653,
+      "Neutral": 4332.202906386067
+    },
+    "long_short": {
+      "Greed": {
+        "long": 47.883457314913215,
+        "short": 52.116542685086785
+      },
+      "Extreme Greed": {
+        "long": 29.549902152641877,
+        "short": 70.45009784735812
+      },
+      "Fear": {
+        "long": 52.68584613166054,
+        "short": 47.31415386833947
+      },
+      "Extreme Fear": {
+        "long": 50.214961306964746,
+        "short": 49.785038693035254
+      },
+      "Neutral": {
+        "long": 37.010159651669085,
+        "short": 62.989840348330915
+      }
+    }
+  },
+  "summary_data": [
+    {
+      "sentiment": "Greed",
+      "trades": 11292,
+      "avgPnl": 53.98800324442084,
+      "winRate": 43.57066950053135,
+      "avgTradeSize": 5051.878829259654,
+      "totalPnl": 609632.5326360001,
+      "details": {
+        "medianPnl": 0.0,
+        "startPosition": 37276.787810983165
+      }
+    },
+    {
+      "sentiment": "Extreme Greed",
+      "trades": 5621,
+      "avgPnl": 205.81634505888633,
+      "winRate": 55.328233410425185,
+      "avgTradeSize": 3242.085086283579,
+      "totalPnl": 1156893.675576,
+      "details": {
+        "medianPnl": 0.96048,
+        "startPosition": 24593.24115989713
+      }
+    },
+    {
+      "sentiment": "Fear",
+      "trades": 13869,
+      "avgPnl": 128.28795029591174,
+      "winRate": 38.1786718581008,
+      "avgTradeSize": 5744.782685125099,
+      "totalPnl": 1779225.582654,
+      "details": {
+        "medianPnl": 0.0,
+        "startPosition": 8146.358517624415
+      }
+    },
+    {
+      "sentiment": "Extreme Fear",
+      "trades": 2326,
+      "avgPnl": 1.8916322231298361,
+      "winRate": 29.27773000859845,
+      "avgTradeSize": 4118.761840068788,
+      "totalPnl": 4399.936550999999,
+      "details": {
+        "medianPnl": 0.0,
+        "startPosition": 21902.79750481654
+      }
+    },
+    {
+      "sentiment": "Neutral",
+      "trades": 2756,
+      "avgPnl": 27.088803330914367,
+      "winRate": 49.49201741654572,
+      "avgTradeSize": 4332.202906386066,
+      "totalPnl": 74656.74197999999,
+      "details": {
+        "medianPnl": 0.0,
+        "startPosition": 89199.58740613675
+      }
+    }
+  ]
+}

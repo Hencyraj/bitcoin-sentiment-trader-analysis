@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bitcoin Sentiment vs Trader Performance</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Bitcoin Market Sentiment Analysis</h1>
+    <p>Trader Performance vs Market Psychology</p>
+  </header>
+
+  <section class="upload-section">
+    <div class="upload-box">
+      <h3>Bitcoin Sentiment CSV</h3>
+      <input type="file" id="sentimentFile" accept=".csv">
+    </div>
+
+    <div class="upload-box">
+      <h3>Trader Data CSV</h3>
+      <input type="file" id="traderFile" accept=".csv">
+    </div>
+  </section>
+
+  <div class="center">
+    <button onclick="runAnalysis()">Run Analysis</button>
+  </div>
+
+  <section id="results" class="hidden">
+    <h2>Analysis Results</h2>
+
+    <div class="cards">
+      <div class="card fear">
+        <h3>Fear Market</h3>
+        <p><strong>Win Rate:</strong> <span id="fearWin"></span>%</p>
+        <p><strong>Avg PnL:</strong> $<span id="fearPnL"></span></p>
+      </div>
+
+      <div class="card greed">
+        <h3>Greed Market</h3>
+        <p><strong>Win Rate:</strong> <span id="greedWin"></span>%</p>
+        <p><strong>Avg PnL:</strong> $<span id="greedPnL"></span></p>
+      </div>
+    </div>
+
+    <div class="insights">
+      <h3>Key Insights</h3>
+      <ul id="insightsList"></ul>
+    </div>
+  </section>
+
+  <footer>
+    <p>Built with HTML, CSS & JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
